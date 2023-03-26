@@ -1,0 +1,7 @@
+.idea/*
+!.idea/codeStyles
+
+.aws-sam/
+
+build
+.gradle

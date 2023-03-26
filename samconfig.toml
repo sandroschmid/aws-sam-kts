@@ -1,0 +1,12 @@
+version = 0.1
+[default.build.parameters]
+build_image = ["al2-graalvm:gradle"]
+use_container = true
+[default.deploy.parameters]
+stack_name = "aws-sam-kts"
+resolve_s3 = true
+s3_prefix = "aws-sam-kts"
+region = "eu-west-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
