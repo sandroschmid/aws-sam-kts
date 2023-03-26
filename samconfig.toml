@@ -10,3 +10,6 @@ region = "eu-west-1"
 confirm_changeset = true
 capabilities = "CAPABILITY_IAM"
 image_repositories = []
+[default.sync]
+[default.sync.parameters]
+watch = true
